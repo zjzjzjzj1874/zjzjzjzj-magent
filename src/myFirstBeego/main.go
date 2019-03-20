@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	logs.Info("\r\n from main.go init Methods")
+	logs.Info("\r\n from main.go init Methods  test in github")
 	beego.Run()
 }
 
