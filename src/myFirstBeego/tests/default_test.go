@@ -1,12 +1,12 @@
 package test
 
 import (
+	_ "myFirstBeego/routers"
 	"net/http"
 	"net/http/httptest"
-	"testing"
-	"runtime"
 	"path/filepath"
-	_ "myFirstBeego/routers"
+	"runtime"
+	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
 )
