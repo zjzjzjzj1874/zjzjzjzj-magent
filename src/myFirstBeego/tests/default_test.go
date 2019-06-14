@@ -8,7 +8,6 @@ import (
 	"path/filepath"
 	_ "myFirstBeego/routers"
 
-	"github.com/astaxie/beego"
 	. "github.com/smartystreets/goconvey/convey"
 )
 
