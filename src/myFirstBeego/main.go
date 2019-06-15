@@ -9,7 +9,7 @@ import (
 
 func init()  {
 	fmt.Println("我是master分支中的init方法")
-	fmt.Println("master中增加打印信息")
+	fmt.Println("master中有个bug,修改之后,验证无误,提交,push.然后一会儿回分支继续开发")
 	fmt.Println("master中有个bug,修改之后,验证无误,提交,push.然后一会儿回分支继续开发")
 }
 func hotfix()  {
