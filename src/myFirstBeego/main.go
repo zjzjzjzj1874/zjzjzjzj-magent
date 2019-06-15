@@ -14,6 +14,7 @@ func init()  {
 func hotfix()  {
 	fmt.Println("我是hotfix分支中的hotfix函数")
 	fmt.Println("master中增加打印信息")
+	fmt.Println("hotfix中增加打印信息")
 }
 func main() {
 	logs.Info("\r\n 1111 from main.go, init Methods test in github")
