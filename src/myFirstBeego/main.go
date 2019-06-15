@@ -13,3 +13,6 @@ func main() {
 	fmt.Println("test branch")
 }
 
+func homeTest()  {
+	fmt.Println("在homeTest中开发项目.")
+}
