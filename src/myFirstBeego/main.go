@@ -15,4 +15,5 @@ func main() {
 
 func homeTest()  {
 	fmt.Println("在homeTest中开发项目.")
+	fmt.Println("项目开发结束,准备回master中合并分支.")
 }
