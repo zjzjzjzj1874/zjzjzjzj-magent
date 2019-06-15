@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
+	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
 	_ "myFirstBeego/routers"
-	"github.com/astaxie/beego"
 )
 
 func init()  {
@@ -22,5 +22,10 @@ func main() {
 	fmt.Println("I'm is hotfix  changing ")
 	fmt.Println("I'm is  changing ")
 	beego.Run()
+	fmt.Println("test branch")
 }
 
+func homeTest()  {
+	fmt.Println("在homeTest中开发项目.")
+	fmt.Println("项目开发结束,准备回master中合并分支.")
+}
